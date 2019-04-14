@@ -24,25 +24,26 @@
             <h2 id="contact">Contact</h2>
             <hr class="decorativeLine">
 
-            <form>
-
+            <!-- Need to add the action function to the form and button-->
+            <form id="form1"> 
                 Name: <br>
                 <input type="text" name="userName"><br>
                 Email: <br>
                 <input type="text" name="userEmail"><br>
-                Messgae: <br>
-                <input id="largeInput" type="text" name="userMessage">
-            
+                <!-- Should be able to adjust the size of the message field -->
+                Message: <br>
+                <input id="largeInput" type="text" name="userMessage">        
             </form>
-        </section>
-    
-    
-    
-    
-    
-    
-    
-    
-    </body>
 
+            <!-- Need to understand what these attributes mean -->
+            <button type="submit" form="form1" value="submit">
+                Submit
+            </button>
+
+        </section>
+        
+        <footer>
+            <p>Copyright &#9400;</p>
+        </footer>    
+    </body>
 </html>
