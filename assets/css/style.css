@@ -2,44 +2,59 @@ header {
     background-color: #ffffff;
     border-bottom: 3px solid #cccccc;
     text-align: center;
+    border: 3px solid yellow;
+    display: flex;
+    width: 100%;
 }
 
 nav {
     display: flex;
-    float: right;
     border: 3px solid pink;
     width: 20%;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
 
 
-.navElement {
+.navElement, .navElementBorder {
     display: flex;
     padding-right: 5%;
     padding-left: 5%;
-    border-right: 1px solid black;
+    height: 25px;
+
 }
 
-/* why is this not allowing me indicate only 2 nav elements with a border?
+
 .navElementBorder {
-    border-right: 3px solid black;
+   border-right: 1px solid #cccccc;
 }
-*/
 
+
+/* Why is the toolbar showing larger than the contnet?*/
 .toolbar {
-    display: inline-block;
+    display: flex;
     border: 3px solid blue;
     justify-content: space-between;
-    width: 75%;
+    width: 79%;
+    flex-direction: row;
+    align-content: center;
+    white-space: nowrap;
+
+
+    
 }
 
 #myName {
     display: inline;
-    float: left;
-    border: 3px solid pink;
+    border: 3px solid green;
     background-color: #4aaaa5;
-    padding: 3%;
+    padding: 2%;
     color: #ffffff;
+    text-align: left;
+    display: flex;
+
+    
 }
 
 .background {
@@ -63,12 +78,15 @@ p {
     border: 3px solid red;
     background-color: #ffffff;
     padding: 2%;
+    overflow: auto;
+    
 }
 
 img {
     float: left;
     width: 200px;
     border: 3px solid black;
+    padding-right: 5px;
 }
 
 h2 {
@@ -82,7 +100,6 @@ footer {
     text-align: center;
     color: #CCCCCC;
     font-size: 12px;
-    border-top: 3px solid #4aaaa5;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    border-top: 4px solid #4aaaa5;
+    padding-top: 2em;
 }
