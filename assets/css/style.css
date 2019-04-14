@@ -1,0 +1,26 @@
+header {
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+}
+
+nav {
+    display: flex;
+    display: inline;
+    justify-content: stretch;
+    border: 3px solid pink;
+}
+
+#myName {
+    display: inline;
+    justify-content: flex-start;
+    border: 3px solid pink;
+}
+
+h1 {
+    display: inline;
+}
+
+h2 {
+    border-bottom: 3px solid #CCCCCC;
+    color: #4aaaa5;
+}
