@@ -8,40 +8,44 @@
     </head>
 
     <body>
-        <div class="toolbar">
-           <!-- Build and copy full nav from index.html when complete -->
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+        <header>
+                <!-- Should the h1 tag be before or after the nav? -->
+            <div class="toolbar">
+                <h1 id="myName">Emily Baumgartner</h1>
+                <nav>
+                    
+                    <!-- Need to link this down to the id #aboutMe -->
+                    <a class="navElementBorder navElement"  href="index.html">About</a>
+                    <a class="navElementBorder navElement"  href="portfolio.html">Portfolio</a>
+                    <a class="navElement" href="contact.html">Contact</a>          
+                
+                </nav>
+            </div>
+        </header>
+        <div class="background">
+            <br>
 
-            <h1 id="myName">Emily Baumgartner</h1>
-            <hr>
+            <section class="mainContent">
+                <h2 id="contact">Contact</h2>
+                <!-- Need to add the action function to the form and button-->
+                <form id="form1"> 
+                    Name: <br>
+                    <input type="text" name="userName"><br>
+                    Email: <br>
+                    <input type="text" name="userEmail"><br>
+                    <!-- Should be able to adjust the size of the message field -->
+                    Message: <br>
+                    <input id="largeInput" type="text" name="userMessage">        
+                </form>
+
+                <!-- Need to understand what these attributes mean -->
+                <button type="submit" form="form1" value="submit">
+                    Submit
+                </button>
+
+            </section>
+            <br>
         </div>
-        
-        <section class="mainContent">
-            <h2 id="contact">Contact</h2>
-            <hr class="decorativeLine">
-
-            <!-- Need to add the action function to the form and button-->
-            <form id="form1"> 
-                Name: <br>
-                <input type="text" name="userName"><br>
-                Email: <br>
-                <input type="text" name="userEmail"><br>
-                <!-- Should be able to adjust the size of the message field -->
-                Message: <br>
-                <input id="largeInput" type="text" name="userMessage">        
-            </form>
-
-            <!-- Need to understand what these attributes mean -->
-            <button type="submit" form="form1" value="submit">
-                Submit
-            </button>
-
-        </section>
-        
         <footer>
             <p>Copyright &#9400;</p>
         </footer>    

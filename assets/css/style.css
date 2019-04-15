@@ -4,57 +4,52 @@ header {
     text-align: center;
     border: 3px solid yellow;
     display: flex;
-    width: 100%;
+    width: auto;
+    /* width: 100%; -- used this instead of the padding, with the intention of centering the contnet */
 }
 
 nav {
     display: flex;
     border: 3px solid pink;
-    width: 20%;
     justify-content: flex-end;
     align-items: center;
-    
+    overflow: auto;
+    width: 30%;
+    /* width: 20%; ---- using overflow instead  */
 }
 
 
-.navElement, .navElementBorder {
+.navElement {
     display: flex;
     padding-right: 5%;
     padding-left: 5%;
     height: 25px;
-
 }
-
 
 .navElementBorder {
    border-right: 1px solid #cccccc;
 }
 
 
-/* Why is the toolbar showing larger than the contnet?*/
+/* Why is the toolbar showing larger than the contnet? */
 .toolbar {
     display: flex;
     border: 3px solid blue;
     justify-content: space-between;
     width: 79%;
     flex-direction: row;
-    align-content: center;
     white-space: nowrap;
-
-
-    
 }
 
 #myName {
     display: inline;
+    display: flex;
     border: 3px solid green;
     background-color: #4aaaa5;
     padding: 2%;
     color: #ffffff;
     text-align: left;
-    display: flex;
-
-    
+    align-content: flex-end;  
 }
 
 .background {
@@ -64,7 +59,7 @@ nav {
 
 
 h1, h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 p {
@@ -95,6 +90,7 @@ h2 {
     padding-bottom: 1em;
 }
 
+/* still need to make the footer sticky to the bottom of the page */
 footer {
     background-color: #666666;
     text-align: center;
