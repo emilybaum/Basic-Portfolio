@@ -75,7 +75,7 @@ p {
 
 .mainContent {
     width: 75%;
-    border: 3px solid red;
+    border: 1px solid #CCCCCC;
     background-color: #ffffff;
     padding: 2%;
     overflow: auto;
@@ -97,6 +97,7 @@ h2 {
 
 /* still need to make the footer sticky to the bottom of the page */
 footer {
+    width: 100%;
     background-color: #666666;
     text-align: center;
     color: #CCCCCC;
@@ -104,4 +105,6 @@ footer {
     border-top: 4px solid #4aaaa5;
     padding-top: 2em;
     padding-bottom: .5px;
+    
 }
+
