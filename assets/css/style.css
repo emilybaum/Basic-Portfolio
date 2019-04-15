@@ -2,23 +2,22 @@ header {
     background-color: #ffffff;
     border-bottom: 3px solid #cccccc;
     text-align: center;
-/*    border: 3px solid yellow;  */
     display: flex;
-    width: auto;
-
-    /* width: 100%; -- used this instead of the padding, with the intention of centering the contnet */
+    width: 100%;
 }
 
 nav {
     display: flex;
-/*    border: 3px solid pink;   */
     justify-content: flex-end;
     align-items: center;
     overflow: auto;
     width: 50%;
-    /* width: 20%; ---- using overflow instead  */
 }
 
+nav a {
+    color: #666666;
+    
+}
 
 .navElement {
     display: flex;
@@ -37,7 +36,6 @@ nav {
 /* Why is the toolbar showing larger than the contnet? */
 .toolbar {
     display: flex;
-/*    border: 3px solid blue;   */
     justify-content: space-between;
     width: 79%;
     flex-direction: row;
@@ -48,7 +46,6 @@ nav {
 #myName {
     display: inline;
     display: flex;
-/*    border: 3px solid green;  */
     background-color: #4aaaa5;
     padding: 2%;
     color: #ffffff;
@@ -58,9 +55,21 @@ nav {
     margin-bottom: 0px;
 }
 
+/* is this needed? 
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+*/
+
+
+/* need to update these things */
 .background {
     background-image: url(../images/cross_scratches.png);
-
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
 }
 
 
@@ -70,7 +79,6 @@ h1, h2 {
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-/*    border: 3px solid black;   */
 }
 
 .mainContent {
@@ -85,7 +93,6 @@ p {
 img {
     float: left;
     width: 200px;
-/*    border: 3px solid black;   */
     padding-right: 9px;
 }
 
@@ -93,6 +100,14 @@ h2 {
     border-bottom: 3px solid #CCCCCC;
     color: #4aaaa5;
     padding-bottom: 1em;
+}
+
+.mainContainer {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 50px;
 }
 
 /* still need to make the footer sticky to the bottom of the page */
@@ -103,8 +118,10 @@ footer {
     color: #CCCCCC;
     font-size: 12px;
     border-top: 4px solid #4aaaa5;
-    padding-top: 2em;
+    padding-top: 2px; /* had em here, but changed to px */
     padding-bottom: .5px;
+    position: absolute;
+
     
 }
 
