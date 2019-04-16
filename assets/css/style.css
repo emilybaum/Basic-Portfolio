@@ -139,6 +139,31 @@ section img {
     color: #4aaaa5;
 }
 
+#largeInput {
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+    text-align: left;
+}
+
+form {
+    float: left;
+
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#wholeForm {
+    float: left;
+}
+ /* Need to figure out how to keep the button under form1 */
+button {
+    float: left;
+    position: absolute;
+}
+
 
 /* still need to make the footer sticky to the bottom of the page */
 footer {

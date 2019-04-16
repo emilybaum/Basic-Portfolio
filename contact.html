@@ -29,21 +29,25 @@
                 <section class="mainContent">
                     <h2 id="contact">Contact</h2>
                     <!-- Need to add the action function to the form and button-->
-                    <form id="form1"> 
-                        Name: <br>
-                        <input type="text" name="userName"><br>
-                        Email: <br>
-                        <input type="text" name="userEmail"><br>
-                        <!-- Should be able to adjust the size of the message field -->
-                        Message: <br>
-                        <input id="largeInput" type="text" name="userMessage">        
-                    </form>
-
-                    <!-- Need to understand what these attributes mean -->
-                    <button type="submit" form="form1" value="submit">
-                        Submit
-                    </button>
-
+                    <div id="wholeForm">
+                        <form id="form1"> 
+                            Name: <br>
+                            <input type="text" name="userName"><br>
+                            Email: <br>
+                            <input type="text" name="userEmail"><br>
+                            <!-- Should be able to adjust the size of the message field -->
+                            Message: <br>
+                            <input id="largeInput" type="text" name="userMessage" placeholder="Share your feedback">        
+                        
+                        <button type="submit" form="form1" value="submit">
+                            Submit
+                        </button>
+                        
+                        </form>
+                        
+                        <!-- Need to understand what these attributes mean -->
+                        
+                    </div> <!-- div for wholeForm-->
                 </section>
                 <br>
             </div>
