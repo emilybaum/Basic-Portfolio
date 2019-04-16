@@ -8,75 +8,86 @@
     </head>
 
     <body>
-        <header>
-                <!-- Should the h1 tag be before or after the nav? -->
-            <div class="toolbar">
-                <h1 id="myName"><a href="index.html">Emily Baumgartner</a></h1>
-                <nav>
+        <div class="mainContainer">
+            <header>
+                <div class="toolbar">
+                    <h1 id="myName"><a href="index.html">Emily Baumgartner</a></h1>
+                    <nav>
+                        
+                        <!-- Need to link this down to the id #aboutMe -->
+                        <a class="navElementBorder navElement"  href="index.html">About</a>
+                        <a class="navElementBorder navElement"  href="portfolio.html">Portfolio</a>
+                        <a class="navElement" href="contact.html">Contact</a>          
                     
-                    <!-- Need to link this down to the id #aboutMe -->
-                    <a class="navElementBorder navElement"  href="index.html">About</a>
-                    <a class="navElementBorder navElement"  href="portfolio.html">Portfolio</a>
-                    <a class="navElement" href="contact.html">Contact</a>          
-                
-                </nav>
-            </div>
-        </header>
-        
-        <div class="background">
-            <br>
-            <section class="mainContent">
-                
-                <h2>Portfolio</h2>
+                    </nav>
+                </div>
+            </header>
+            
+            <div class="background">
+                <br>
+                <section class="mainContent">
+                    
+                    <h2>Portfolio</h2>
 
-                <section class="allPhotos">
-                    <img src="assets/images/future_dog.jpg" alt="A dog">
-                    <div class="bannerAbsolute">
-                        A dog
-                    </div>
+                    <section class="allPhotos">
+                        <img src="assets/images/future_dog.jpg" alt="A dog">
+                        <a href="#">
+                            <div class="bannerAbsolute">
+                            A dog
+                            </div>
+                        </a>
+                    </section>
+
+                    <section class="allPhotos">
+                        <img src="assets/images/nature.jpg" alt="Nature">
+                        <a href="#">
+                            <div class="bannerAbsolute">
+                            Nature
+                            </div>
+                        </a>
+                    </section>
+
+                    <section class="allPhotos">
+                        <img src="assets/images/plane.jpg" alt="Plane">
+                        <a href="#">
+                            <div class="bannerAbsolute">
+                            Plane
+                            </div>
+                        </a>
+                    </section>
+
+                    <section class="allPhotos">
+                        <img src="assets/images/circuit_board.jpg" alt="Circuit board">
+                        <a href="#">
+                            <div class="bannerAbsolute">
+                            Circuit board
+                            </div>
+                        </a>
+                    </section>
+
+                    <section class="allPhotos">
+                        <img src="assets/images/fashion_show.jpg" alt="Fashion show">
+                        <a href="#">
+                            <div class="bannerAbsolute">
+                            Fashion show
+                            </div>
+                        </a>
+                    </section>
+
+                    <section class="allPhotos">
+                        <img src="assets/images/dirt_biking.jpg" alt="Dirt bike">
+                        <a href="#">
+                            <div class="bannerAbsolute">
+                            Dirt bike
+                            </div>
+                        </a>
+                    </section>
+
+
                 </section>
-
-                <section class="allPhotos">
-                    <img src="assets/images/nature.jpg" alt="Nature">
-                    <div class="bannerAbsolute">
-                        Nature
-                    </div>
-                </section>
-
-                <section class="allPhotos">
-                    <img src="assets/images/plane.jpg" alt="Plane">
-                    <div class="bannerAbsolute">
-                        Plane
-                    </div>
-                </section>
-
-                <section class="allPhotos">
-                    <img src="assets/images/circuit_board.jpg" alt="Circuit board">
-                    <div class="bannerAbsolute">
-                        Circuit board
-                    </div>
-                </section>
-
-                <!-- added link to banner -->
-                <!-- can I add a hover too? -->
-                <section class="allPhotos">
-                    <img src="assets/images/fashion_show.jpg" alt="Fashion show">
-                    <a href="#"><div class="bannerAbsolute">
-                        Fashion show
-                    </div></a>
-                </section>
-
-                <section class="allPhotos">
-                    <img src="assets/images/dirt_biking.jpg" alt="Dirt bike">
-                    <div class="bannerAbsolute">
-                        Dirt bike
-                    </div>
-                </section>
-
-
-            </section>
-            <br>
-        </div>
+                <br>
+            </div> <!-- this is the dav for background -->
+        </div> <!-- div for mainContainer -->
         <footer>
             <p>Copyright &#9400;</p>
         </footer>

@@ -16,6 +16,8 @@ nav {
 
 nav a {
     color: #666666;
+    padding-top:5px;
+    padding-bottom: 5px;
     
 }
 
@@ -60,15 +62,16 @@ nav a {
 
 nav a:hover {
     background-color: #cccccc;
+    color: #4aaaa5;
 }
 
 
 .background {
     background-image: url(../images/cross_scratches.png);
-    min-height: 100vh;
-    overflow: hidden;
-    display: block;
-    position: relative;
+    min-height: 85vh;
+    /* overflow: hidden; */
+    /* display: block;
+    position: relative; */
 }
 
 
@@ -102,11 +105,10 @@ h2 {
 }
 
 .mainContainer {
-    min-height: 100vh;
+    min-height: 90vh;
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 50px;
 }
 section img {
     width: 300px;
@@ -130,13 +132,12 @@ section img {
     text-align: center;
     font-size: 18px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
- 
 }
 
-
-
-
-
+.bannerAbsolute:hover {
+    background-color: #cccccc;
+    color: #4aaaa5;
+}
 
 
 /* still need to make the footer sticky to the bottom of the page */
@@ -147,10 +148,7 @@ footer {
     color: #CCCCCC;
     font-size: 12px;
     border-top: 4px solid #4aaaa5;
-    padding-top: 2px; /* had em here, but changed to px */
-    padding-bottom: .5px;
-    position: absolute;
-
-    
+    padding-top: 10px; 
+    padding-bottom: .5px;  
 }
 
