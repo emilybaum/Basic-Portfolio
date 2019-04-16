@@ -26,6 +26,9 @@ nav a {
     height: 25px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 .navElementBorder {
@@ -33,7 +36,6 @@ nav a {
 }
 
 
-/* Why is the toolbar showing larger than the contnet? */
 .toolbar {
     display: flex;
     justify-content: space-between;
@@ -43,7 +45,7 @@ nav a {
     margin: 0 auto;
 }
 
-#myName {
+#myName, #myName a {
     display: inline;
     display: flex;
     background-color: #4aaaa5;
@@ -53,17 +55,14 @@ nav a {
     align-content: flex-end;  
     margin-top: 0px;
     margin-bottom: 0px;
+    text-decoration: none;
 }
 
-/* is this needed? 
-html, body {
-    margin: 0px;
-    padding: 0px;
+nav a:hover {
+    background-color: #cccccc;
 }
-*/
 
 
-/* need to update these things */
 .background {
     background-image: url(../images/cross_scratches.png);
     min-height: 100vh;
@@ -90,10 +89,10 @@ p {
     margin: 0 auto;
 }
 
-img {
+#headshot {
     float: left;
     width: 200px;
-    padding-right: 9px;
+    margin-right: 9px;
 }
 
 h2 {
@@ -109,6 +108,36 @@ h2 {
     position: relative;
     padding-bottom: 50px;
 }
+section img {
+    width: 300px;
+}
+
+.allPhotos {
+    float: left;
+    margin: 37px;
+    position: relative;
+}
+
+.bannerAbsolute {
+    position: absolute;
+    color: #ffffff;
+    padding: 20px 0;
+    z-index: 1;
+    background: #4aaaa5;
+    right: 0px;
+    bottom: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ 
+}
+
+
+
+
+
+
 
 /* still need to make the footer sticky to the bottom of the page */
 footer {
