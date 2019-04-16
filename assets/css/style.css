@@ -139,6 +139,18 @@ section img {
     color: #4aaaa5;
 }
 
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #000000;
+}
+input {
+    margin-bottom: 20px;
+    overflow: scroll;
+    width: 250px;
+    /* word-wrap: break-word;
+    word-break: break-word; */
+}
+
 #largeInput {
     width: 500px;
     height: 300px;
@@ -148,20 +160,37 @@ section img {
 
 form {
     float: left;
+    border: 3px solid red;
+    margin-bottom: 20px;
 
 }
 
-input {
-    margin-bottom: 20px;
+
+input[type] {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    /* word-wrap: break-word;
+    word-break: break-word;
+    overflow: auto; */
 }
 
 #wholeForm {
     float: left;
 }
+
  /* Need to figure out how to keep the button under form1 */
 button {
     float: left;
     position: absolute;
+    padding: 5px 15px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: #ffffff;
+    background: #4aaaa5;
 }
 
 
