@@ -240,6 +240,12 @@ footer {
     padding-bottom: .5px;    
 }
 
+.socialLinks {
+    width: 25px;
+    padding: 0 3px;
+}
+
 footer p {
     font-size: 12px;
+    line-height: 5px;
 }
