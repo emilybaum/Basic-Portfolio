@@ -34,19 +34,21 @@
                     <!-- Need to add the action function to the form and button-->
                     <div id="wholeForm">
                         
-                        <form id="form1"> 
-                            Name: <br>
-                            <input type="text" name="userName" placeholder="Your name"><br>
-                            Email: <br>
-                            <input type="text" name="userEmail" placeholder="Your email"><br>
-                            <!-- need to get multiple lines of text aligned top-left vs just one line that is centered  -->
-                            Message: <br>
-                            <textarea id="largeInput" type="text" name="userMessage" placeholder="Share your feedback"></textarea>
+                        <form class="form1" action="mailto:emily.r.baum@gmail.com" method="get" enctype="text/plain"> 
+                            <label for="userName">Name:</label><br>
+                            <input id="userName" name="userName" type="text" placeholder="Your name"><br>
                             
-                            <button type="submit" form="form1" value="submit">
+                            <label for="userEmail">Email:</label><br>
+                            <input id="userEmail" name="userEmail" type="text" placeholder="Your email"><br>
+                            
+                            <!-- need to get multiple lines of text aligned top-left vs just one line that is centered  -->
+                            <label for="uderMessage">Message:</label><br>
+                            <textarea id="userMessage" name="userMessage" type="text" placeholder="Share your feedback"></textarea>
+                            
+                            <button type="submit" value="form1">
                                 Submit
                             </button>
-
+                            <!-- form="form1" -->
                         </form>
 
                     </div> <!-- div for wholeForm-->

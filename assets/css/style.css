@@ -195,7 +195,7 @@ textarea {
     float: left;
 }
 
- /* Need to figure out how to keep the button under form1 */
+
 button {
     float: left;
     position: absolute;
@@ -204,6 +204,7 @@ button {
     border-radius: 5px;
     left: 0px;
     bottom: -60px;
+    overflow: hidden;
 }
 
 button:hover {
@@ -240,6 +241,5 @@ footer {
 }
 
 footer p {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 12px;
 }
