@@ -117,13 +117,13 @@ h2 {
     display: block;
     position: relative;
 }
+
 section img {
     width: 300px;
 }
 
 #fordFocusImg {
-    margin: 20px;
-    
+    margin: 20px;  
 }
 
 #fordFocusContainer {
@@ -176,26 +176,15 @@ form {
 
 input {
     margin-bottom: 20px;
-    overflow: scroll;
-    width: 250px;
-    /* word-wrap: break-word;
-    word-break: break-word; */
+    width: 300px;
 }
-
-/* #largeInput {
-    /* width: 500px;
-    height: 300px;
-    overflow: auto;
-    text-align: left; 
-} */
-
-
-
 
 input[type], textarea[type] {
     color: #000000;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
 textarea {
@@ -203,7 +192,6 @@ textarea {
     height: 300px;
     resize: vertical horizontal;
     float: left;
-    /* border: 3px solid pink; */
 }
 
 #wholeForm {
@@ -218,7 +206,7 @@ button {
     color: #000000;
     border-radius: 5px;
     left: 0px;
-    bottom: -60px;
+    bottom: -40px;
     overflow: hidden;
 }
 
@@ -242,9 +230,6 @@ button:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-/* Why is the size of the text not recognizing the font-size???? */
 footer {
     width: 100%;
     background-color: #666666;
