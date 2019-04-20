@@ -169,20 +169,10 @@ section {
     color: #4aaaa5;
 }
 
-/* form {
-    float: left;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #000000;
-    position: relative;
-    margin-bottom: 60px;
-} */
-
-
 #userName, #userEmail {
     margin-bottom: 20px;
     width: 98%;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 
 input[type], textarea[type] {
@@ -204,6 +194,9 @@ textarea {
     float: left;
     width: 100%;
     position: relative;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
