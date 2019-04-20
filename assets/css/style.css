@@ -94,6 +94,7 @@ p, ol {
     border: 1px solid #CCCCCC;
     background-color: #ffffff;
     padding: 2%;
+    padding-bottom: 5%;
     overflow: auto;
     margin: 0 auto;
 }
@@ -168,18 +169,20 @@ section {
     color: #4aaaa5;
 }
 
-form {
+/* form {
     float: left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #000000;
     position: relative;
     margin-bottom: 60px;
-}
+} */
 
 
-input {
+#userName, #userEmail {
     margin-bottom: 20px;
-    width: 300px;
+    width: 98%;
+    overflow: hidden;
+    
 }
 
 input[type], textarea[type] {
@@ -191,7 +194,7 @@ input[type], textarea[type] {
 }
 
 textarea {
-    width: 500px;
+    width: 98%;
     height: 300px;
     resize: vertical horizontal;
     float: left;
@@ -199,6 +202,8 @@ textarea {
 
 #wholeForm {
     float: left;
+    width: 100%;
+    position: relative;
 }
 
 
